@@ -1,10 +1,13 @@
 .flex-container {
-    /* display: grid; */
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 500px;
+  border: 50px solid plum;
+  margin: 10px;
+  border-radius: 40px;
 }
 
-.gridRow {
-    display: flex;
-}
-
-.gridCol {
+.gridCell {
+  flex-grow: 1;
 }
